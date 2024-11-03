@@ -1,7 +1,7 @@
 import React from "react";
 import "./TodoItem.css";
 import { Todo } from "../TodoList/TodoList";
-import { useGlobalUser ,UserContext} from "../../context/Context";
+import { useGlobalUser } from "../../context/Context";
 
 interface TodoItemProps {
   todo: Todo;
