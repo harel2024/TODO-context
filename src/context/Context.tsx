@@ -10,7 +10,7 @@ import {
   import axios from "axios";
 
 
-  const BASE_URL = `${import.meta.env.VITE_API_URL}/Todos`;
+  const BASE_URL = `${import.meta.env.VITE_API_URL}`;
   
   interface UserProviderProps {
     children: ReactNode;
