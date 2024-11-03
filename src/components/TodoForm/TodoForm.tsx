@@ -29,7 +29,5 @@ const TodoForm: React.FC= () => {
 };
 
 export default TodoForm;
-// function addTodo(newTodo: string) {
-//   throw new Error("Function not implemented.");
-// }
+
 

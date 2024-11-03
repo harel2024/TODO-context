@@ -66,7 +66,7 @@ import {
 
   const addTodo = async (title: string): Promise<void> => {
     try {
-      const response = await axios.post<Todo>(BASE_URL, {
+    await axios.post<Todo>(BASE_URL, {
         title,
         completed: false,
       });
