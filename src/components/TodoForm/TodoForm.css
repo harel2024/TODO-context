@@ -6,13 +6,19 @@
 
 .todo-form input{
     flex:1;
-    padding: 10px;
-    font-size: 16px;
+    padding: 8px;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1px solid #555353;
+    background-color: #d5d1d1;
 }
 
 .todo-form button {
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 13px;
     margin-left:10px;
     cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #1a1a1a;
+    background-color: #1a058fbd;
 }

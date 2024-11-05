@@ -23,7 +23,7 @@ const TodoList: React.FC = () => {
 
   return (
     <div className="todo-list">
-      <h1>To Do List</h1>
+      <h1>Shopping List</h1>
       <TodoForm/>
       <ul>
         {isLoading ? (
